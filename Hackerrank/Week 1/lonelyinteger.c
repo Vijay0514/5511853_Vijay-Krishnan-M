@@ -1,0 +1,10 @@
+int lonelyinteger(int a_count, int* a) {
+     int unique_id = 0;
+    
+    for (int i = 0; i < a_count; i++) {
+        unique_id ^= a[i];
+    }
+    
+    return unique_id;
+
+}
